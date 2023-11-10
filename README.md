@@ -17,3 +17,7 @@
 
 --conf-thres: 对象置信度阈值，默认为 0.25。
 --iou-thres: 非极大值抑制 (NMS) 的 IOU 阈值，默认为 0.45。
+
+
+**运行**：
+python detect.py --bottle True --lighter True --conf-thres 0.25 --iou-thres 0.45
