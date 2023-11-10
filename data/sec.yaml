@@ -1,0 +1,9 @@
+train: ./dataset/lighter/train.txt
+val: ./dataset/lighter/test.txt
+test: ./dataset/lighter/test.txt
+
+# number of classes
+nc: 7
+
+# number of classes
+names: ["gun", "knife", "scissors", "tongs", "wrench", "lighter", "bottle"]
