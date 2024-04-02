@@ -15,11 +15,13 @@
 
 **阈值设置**： 用户可以通过以下参数调整指定类别对象识别的阈值：
 
+cls: "gun", "knife", "scissors", "tongs", "wrench", "lighter", "bottle"
+
 --[cls]-conf-thres: 对象置信度阈值，默认为 0.25。
 
 --[cls]-iou-thres: 非极大值抑制 (NMS) 的 IOU 阈值，默认为 0.45。
 
- 检测类别: "gun", "knife", "scissors", "tongs", "wrench", "lighter", "bottle"
+
 
 
 **运行**：
