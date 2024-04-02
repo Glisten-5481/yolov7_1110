@@ -25,4 +25,4 @@ cls: "gun", "knife", "scissors", "tongs", "wrench", "lighter", "bottle"
 
 
 **运行**：
-python detect.py --bottle True --lighter True --gun-conf-thres 0.25 --gun-c-iou-thres 0.45
+python detect.py --bottle True --lighter True --gun-conf-thres 0.25 --gun-iou-thres 0.45 --knife-conf-thres 0.25 --knife-iou-thres 0.45
